@@ -53,6 +53,14 @@ header .tagline {
     margin-bottom: 20px;
 }
 
+.hero-logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
 .hero h2 {
     font-size: 2rem;
     color: #333;
