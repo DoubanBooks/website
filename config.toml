@@ -1,6 +1,6 @@
 baseURL = "https://doubanbooks.github.io/"
 languageCode = "zh-CN"
-title = "BookFish"
+title = "豆瓣读书++"
 
 [params]
-  description = "BookFish - 豆瓣图书二手比价助手"
+  description = "Douban Books ++ - 豆瓣图书二手比价助手"
