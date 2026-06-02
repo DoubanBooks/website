@@ -1,0 +1,82 @@
+{{ define "main" }}
+<div class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-icon">📚</div>
+            <h2>豆瓣图书价格助手</h2>
+            <p class="hero-desc">自动为您在豆瓣图书页面显示孔夫子旧书网和淘书网的二手书价格</p>
+            <a href="#download" class="download-btn">立即下载</a>
+        </div>
+    </div>
+</div>
+
+<div class="features">
+    <div class="container">
+        <h3>功能特点</h3>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h4>自动解析</h4>
+                <p>自动从豆瓣图书页面提取ISBN，无需手动输入</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h4>智能比价</h4>
+                <p>同时查询孔夫子旧书网和淘书网，最低价格红色高亮</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h4>实时更新</h4>
+                <p>页面加载完成后自动获取最新价格信息</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h4>完美融合</h4>
+                <p>样式与豆瓣页面完美融合，无违和感</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="screenshot">
+    <div class="container">
+        <h3>界面预览</h3>
+        <div class="screenshot-container">
+            <img src="https://neeko-copilot.bytedance.net/api/text_to_image?prompt=Chrome%20browser%20showing%20Douban%20book%20page%20with%20price%20comparison%20extension%20popup%20showing%20used%20book%20prices%20from%20Kongfz%20and%20Taoshu%20websites%20clean%20UI&image_size=landscape_16_9" alt="界面预览">
+        </div>
+    </div>
+</div>
+
+<div id="download" class="download">
+    <div class="container">
+        <h3>下载安装</h3>
+        <div class="download-steps">
+            <div class="step">
+                <span class="step-number">1</span>
+                <p>下载扩展包</p>
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                <p>打开 Chrome 扩展管理页面</p>
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                <p>开启开发者模式</p>
+            </div>
+            <div class="step">
+                <span class="step-number">4</span>
+                <p>加载已解压的扩展程序</p>
+            </div>
+        </div>
+        <a href="https://github.com/DoubanBooks/douban_books_fisher/archive/refs/heads/main.zip" class="download-btn secondary">下载最新版本</a>
+    </div>
+</div>
+
+<div class="about">
+    <div class="container">
+        <h3>关于项目</h3>
+        <p>Douban Book Fisher 是一个开源的 Chrome 浏览器扩展，旨在帮助用户在浏览豆瓣图书时快速对比二手书价格。</p>
+        <p>项目地址：<a href="https://github.com/DoubanBooks/douban_books_fisher" target="_blank">GitHub</a></p>
+    </div>
+</div>
+{{ end }}
