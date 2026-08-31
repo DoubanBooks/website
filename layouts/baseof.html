@@ -39,10 +39,14 @@
     </main>
     <footer>
         <div class="container">
-            <p class="footer-links">
+            <nav class="footer-nav">
+                <a href="{{ "/" | relURL }}">首页</a>
+                <a href="{{ "resources/" | relURL }}">二手书资源</a>
                 <a href="{{ "privacy/" | relURL }}">隐私政策</a>
-            </p>
-            <p>&copy; {{ if eq now.Year 2026 }}2026{{ else }}2026-{{ now.Year }}{{ end }} 豆瓣读书++. All rights reserved.</p>
+                <a href="https://addons.mozilla.org/zh-CN/firefox/addon/doubanbookplusplus/" target="_blank" rel="noopener">Firefox 商店</a>
+                <a href="https://github.com/DoubanBooks" target="_blank" rel="noopener">GitHub</a>
+            </nav>
+            <p class="footer-copy">&copy; {{ if eq now.Year 2026 }}2026{{ else }}2026-{{ now.Year }}{{ end }} 豆瓣读书++. All rights reserved.</p>
         </div>
     </footer>
 </body>
